@@ -23,7 +23,9 @@
     "@nuxtjs/emotion": "^0.0.1",
     "akkadu-genesis-ds": "^1.0.22",
     "breadstick": "^0.2.14",
+    "create-emotion-server": "^10.0.27",
     "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
     "kiwi-core": "^1.4.14",
     "nuxt": "^2.0.0"
   },

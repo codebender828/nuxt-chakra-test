@@ -2,7 +2,7 @@
   <div class="container">
     <ThemeProvider>
       <ColorModeProvider>
-        <Box as="main">
+        <Box font-family="body" as="main">
           <CSSReset />
           <Nuxt />
         </Box>
@@ -12,6 +12,8 @@
 </template>
 <script>
 import { ThemeProvider, ColorModeProvider, CSSReset, Box } from 'kiwi-core'
+import { cache } from 'emotion'
+global.emotionCache = cache
 
 export default {
   name: 'App',
