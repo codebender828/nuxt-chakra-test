@@ -12,8 +12,6 @@
 </template>
 <script>
 import { ThemeProvider, ColorModeProvider, CSSReset, Box } from 'kiwi-core'
-import { cache } from 'emotion'
-global.emotionCache = cache
 
 export default {
   name: 'App',
