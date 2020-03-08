@@ -5,6 +5,7 @@
   "author": "codebender828",
   "private": true,
   "scripts": {
+    "now-build": "nuxt generate",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
