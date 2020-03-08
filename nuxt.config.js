@@ -1,5 +1,5 @@
 global.HTMLElement = typeof window === 'undefined' ? Object : window.HTMLElement
-const createEmotionServer = require('create-emotion-server').default
+// const createEmotionServer = require('create-emotion-server').default
 
 export default {
   hooks: {
@@ -11,14 +11,14 @@ export default {
     //       result.html = withCss
     //     }
     //   },
-    generate: {
-      page (page) {
-        const { renderStylesToString } = createEmotionServer(global.emotionCache)
-        const withCss = renderStylesToString(page.html)
+    // generate: {
+    //   page (page) {
+    //     const { renderStylesToString } = createEmotionServer(global.emotionCache)
+    //     const withCss = renderStylesToString(page.html)
 
-        page.html = withCss
-      }
-    }
+    //     page.html = withCss
+    //   }
+    // }
   },
 
   mode: 'universal',
