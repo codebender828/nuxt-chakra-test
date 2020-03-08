@@ -4963,10 +4963,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-kiwi-core@^1.4.14:
-  version "1.4.14"
-  resolved "https://registry.yarnpkg.com/kiwi-core/-/kiwi-core-1.4.14.tgz#40ee5edbbe8aab01dab39094e4ab2768221e07ed"
-  integrity sha512-ESs+4wik1TYy7RRpspEqTRtb8ujGlGM3kVCFg2Hs93+p8fy0wG/C8veKYqkBnDiIr5+He0uAtd0bCKq+smTCmQ==
+kiwi-core@^1.4.19:
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/kiwi-core/-/kiwi-core-1.4.19.tgz#60f5d43af69fd87da18bb612979e1c36b7340161"
+  integrity sha512-gr6SaqvY59vvXH6BScXpeOPlfpDyA0ZoGzcQ5tNRyOmXebsHkvjSpYBsvlkEsMqcvuJfPb4/68qtd3qUYJum8A==
   dependencies:
     "@styled-system/css" "^5.0.23"
     animejs "^3.1.0"
